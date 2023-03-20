@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-        File file = new File("C:\\Users\\Bakhromjon\\IdeaProjects\\asci-art\\src\\main\\resources\\myphotoorg.ansi.txt");
+        File file = new File("C:\\Users\\Bakhromjon\\IdeaProjects\\asci-art\\src\\main\\resources\\passvault.txt");
         Scanner reader = new Scanner(file);
         while (reader.hasNextLine()) {
             String line = reader.nextLine();
@@ -15,3 +15,4 @@ public class Main {
         }
     }
 }
+
